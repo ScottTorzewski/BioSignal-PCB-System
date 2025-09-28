@@ -1,4 +1,4 @@
-# 🔬 Integrated Optoelectronic Sensing Platform: PCB and Circuit Design for Biophotonic Signal Acquisition
+# 🔬 Integrated Optoelectronic Sensing Device: PCB and Circuit Design for Biophotonic Signal Acquisition
 
 ## 📝 Project Overview
 This project involves designing and building a portable PCB-based fluorescence biosensor. The system integrates an LED excitation source, optical filters, a photodiode detector, and a microcontroller for signal acquisition and data processing. It measures fluorescence from a standard fluorophore (fluorescein) to demonstrate signal detection, hardware integration, and embedded programming. The focus is on electrical and computer engineering aspects (PCB layout, circuit design, amplification, and data acquisition) while connecting subtly to biomedical sensing applications.
