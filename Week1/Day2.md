@@ -2,7 +2,7 @@
 Today, I developed the requirements list, a test plan, and researched fluorescence excitation and emission fundamentals for selecting a light excitation source and optical filter. 
 
 ---
-Requirements - 
+### Requirements - 
 
 Hardware Requirements: 
 Excitation Source – LED matched to fluorescein excitation (~490 nm).
@@ -24,7 +24,7 @@ Display or log signal in a human-readable format.
 Operate safely without hazardous chemicals or human tissue.
 
 ---
-Test Plan - 
+### Test Plan - 
 
 Step 1: Component Validation
 Verify LED emits at correct wavelength.
