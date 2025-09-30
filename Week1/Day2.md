@@ -50,14 +50,23 @@ Include notes on challenges, parameter adjustments, and next steps.
 Include photos, schematics, and code snippets for reproducibility.
 
 ---
+### Light Excitation Source - 
+
 FLuorochromes are photoreactive chemical compounds that absorb light energy of a certain wavelength and emit that light at a longer wavelength. This occurs due to the movements of electrons from a ground state to an excited state, and back to a ground state. The action of falling back to a ground state emits photons that can be measured. It is important to note that the emission light spectrum has a slightly longer wavelength than the absorption specturm due to Stoke's Law. 
 
 In determining a fluorochrome to use, we need to consider a readily available solvent, the molecular extinction coefficient (efficiency with which fluorochrome absorbs excitation light), and the quantum yield (ratio of emission wavelength to absorption wavelength). Fluoroscein is a readily available, cheap fluorochrome that is solvent in water. Its excitation wavelength is 437 nm, while its emission wavelength is 515 nm (quantity yield is 0.92). This information has allowed me to make a selection for a light excitation source. The SMD3030 1W Royal Blue 450 nm LED was chosen because its peak emission (450 nm) closely matches fluorescein’s excitation range (around 437 nm), ensuring efficient absorption and strong fluorescence output. Its compact SMD form factor makes it easy to integrate onto a PCB for a portable biosensor platform.
 
 Link: https://www.lumixtar.com/smd3030-1w-royal-blue-450nm-led.html
 
+---
+### Optical Filter - 
+
+For the optical filter, I chose the NBP530 40 nm Narrow Bandpass Filter because its center wavelength (~530 nm) is close enough to fluorescein’s emission peak (≈515 nm) to transmit a strong emission signal, while the ~40 nm FWHM allows a reasonably narrow band (≈510-550 nm) that still blocks much of the excitation light (~450 nm) and stray ambient light. Although its blocking at 450 nm won’t be as strong as high-end interference filters because of the lower optical density, this filter offers sufficient emission bandwidth and transmission efficiency for proof-of-concept work. Its small size and simple design make it easier to integrate into my PCB sensor enclosure while keeping overall costs low.
+
+Link: https://www.etsy.com/listing/1627403554/multiple-size-530nm-narrow-bandpass?gao=1&gpla=1&utm_source=chatgpt.com
+
 ## 🧩 Challenges
-No real challenges were presented today. 
+No challenges were presented today. All research was conducted efficiently so that I was confident in selecting the neccessary electronic components. 
 
 ## 🥅 Goals
 The goals for tomorrow include continuing the process of selecting components for the PCB. Next up is the photodetector device, analog-front end for signal conversion, and microcontroller for signal processing. 
