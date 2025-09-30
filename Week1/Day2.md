@@ -7,23 +7,16 @@ Today, I developed the requirements list, a test plan, and researched fluorescen
 Hardware Requirements:
 
 Excitation Source – LED matched to fluorescein excitation (~490 nm).
-
 Detector – Photodiode sensitive to fluorescein emission (~520 nm) with appropriate bandpass filter.
-
 PCB – Custom layout integrating LED driver, detector circuitry, amplification, and microcontroller interface.
-
 Power – Stable, low-noise supply (battery or USB-powered).
-
 Microcontroller – ADC capability for photodiode readout, capable of logging data via USB/serial.
-
 Optional Optics – Lenses or diffusers for uniform illumination and signal optimization.
 
 Software Requirements: 
 
 Embedded code for LED control, signal acquisition, and basic filtering.
-
 Data logging and visualization (Python, MATLAB, or microcontroller serial output).
-
 Calibration routines to convert raw voltage to fluorescence intensity.
 
 Functional Requirements:
