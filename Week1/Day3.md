@@ -1,5 +1,5 @@
 ## 📈 Progress
-Today, I researched semiconductor and photodetector fundamentals for selecting a photodectector and analog front-end design for this project.
+Today, I researched semiconductor and photodetector fundamentals for selecting a photodectector. I also began to review microelectronics design for the analog front-end.
 
 ---
 
@@ -9,8 +9,8 @@ Semiconductor devices rely on what is known as the P–N junction. To create one
 For our portable fluorescein reader, I selected a Hamamatsu S1223 PIN photodiode. It has good responsivity near 515 nm, a low dark current, low capacitance, and a PCB/TO-style package for easy alignment. 
 
 ## 🧩 Challenges
-Today's challenege was designing the analog front-end of the device to be optimized based on the requirements. I didn't want to make an ordinary transimpedance amplifier or voltage follower circuit, so I revieiwed my microelectronics textbook to come up with something new. 
+Today's challenege was researching the analog front-end of the device to be optimized based on the requirements. I want to explore the technical characteristics of the electronics in depth before I commit to anything.
 
 ## 🥅 Goals
-Tomorrow, I would like to flesh out the physical design of the device. I plan to begin with a system-level block diagram and build my way up towards a technical sketch, and ultimately a schematic to be implemented as a PCB.
+Tomorrow, I would like to finish the analog circuit design, including any calculations and diagrams.
 
