@@ -33,7 +33,7 @@ The speed and sensitivity of the photodiode are dependent on the parasitic junct
 ---
 
 ### Signal Variability
-My largest concern is the possibility of signal saturation due to a strong enough light intensity. If we use a strong enough light source, the curent generated is greater than the ADC can handle, and we reach saturation thus leading to an incorrect measurement. The solution to this is to implement a programmable gain transimpedance amplfier, which is where the OPA857 from Texas Instruments comes in. A resistor ladder is implemented with analog switches to allow us to adjus the feedback resistor according to the photodiode current.
+My largest concern is the possibility of signal saturation due to a strong enough light intensity. If we use a strong enough light source, the curent generated is greater than the ADC can handle, and we reach saturation thus leading to an incorrect measurement. The solution to this is to implement a programmable gain transimpedance amplfier, which is where the OPA857 from Texas Instruments comes in. A resistor ladder is implemented with analog switches to allow us to adjust the feedback resistor according to the photodiode current.
 
 Official Description - "The OPA857 is a wideband, fast overdrive recovery, fast-settling, ultralow-noise transimpedance amplifier targeted at photodiode monitoring applications. With selectable feedback resistance, the OPA857
 simplifies the design of high-performance optical systems. Very fast overload recovery time and internal input protection provide the best combination to protect the remainder of the signal chain from
