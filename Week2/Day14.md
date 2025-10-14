@@ -3,7 +3,7 @@
 Today, I designed the preliminary schematic using Altium Designer.
 
 <p align="center">
- <img src="./Images/Day14.jpg" alt="Day14" width="500"/>
+ <img src="./Images/Day14.png" alt="Day14" width="500"/>
 </p>
 
 ## 🧩 Challenges
