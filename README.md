@@ -1,5 +1,7 @@
 # 🔬 Optical Sensing Device: Fluorescence-Based Spectrometer with High-Performance AFE for Biophotonic Signal Acquisition
 
+<a href="https://github.com/ScottTorzewski/Biomedical-Engineering/blob/main/Project1/Mathematical%20Model%20of%20Enzyme%20Clustering%20in%20Glucose%20Metabolism%20for%20Cancer%20Treatment.pdf">Complete System Overview</a>
+
 ## 📝 Project Overview
 This project involves designing and building a portable PCB-based fluorescence biosensor. The core system integrates an LED excitation source, an optical filter, a photodiode detector, an analog front-end, and a microcontroller. It measures fluorescence from a standard fluorophore (fluorescein) to demonstrate low-level circuit design, signal detection, hardware integration, and data interpretation. The focus is on electrical engineering fundamentals while connecting to biomedical sensing applications for the purpose of exploring my research interests. 
 
