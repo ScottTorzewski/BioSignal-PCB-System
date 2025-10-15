@@ -13,11 +13,15 @@ At a higher-level, exploring AMS design is essential for bioprocessing systems b
 Fluorescence: The process where a substance absorbs light of one color and then immediately gives off light of a different color which has a longer wavelength. For example, a molecule might absorb blue light but emit green light.
 
 Stokes shift: The difference in wavelength between the light a substance absorbs and the fluorescent light it emits. A larger Stokes shift makes it easier for a detector to distinguish the emitted fluorescent light from the exciting light.
-Analyte: A substance or chemical component in a sample that is the subject of a chemical analysis. It isthe specific thing you are looking for and measuring in an experiment.
-Molecular Extinction Coefficient: 
+
+Analyte: A substance or chemical component in a sample that is the subject of a chemical analysis. It is the specific thing you are looking for and measuring in an experiment.
+
+Molecular Extinction Coefficient: The measure of how stongly a substance absorbs light at a particular wavelength which determines the brightness of the fluorophore.
+
+Quantum Yield: The efficiency of the fluorescence process defined as the ratio of the number of photons emitted to the number of photons absorbed.
 
 ### Electrical
-Spectrometer
+Fluorometer: A fluorescence spectrometer instrument that measures the fluorescent light properties of a sample. 
 
 ## Background
 
@@ -37,7 +41,7 @@ There are several reasons for why it is important to explore fluorescence sensin
   2) Less invasive testing: For diseases like Alzheimer's spinal fluid analysis is often used despite its highly-invasive        nature. Fluorescence-based assays allow for the sensitive detection of biomarkers using more accessible blood samples.
   3) Real-time monitoring and imaging: Fluorescent probes can be used for real-time, high-resolution imaging in living           cells and tissues. This is crucial for exploring disease progression in cellular processes and the efficacy of drug         therapies.
 
-Aside from the fluorophore itself, there are five main components required for a spectrometer. 
+Aside from the fluorophore itself, there are five main components required for a fluorometer. 
 
   1) Light excitation source: This is the light source that emits light at a specific wavelength to excite the fluorochrome.
   2) Optical filters: Spectrometers require two filters. An excitation filter selects the specific wavelength from               the light source that will excite the sample, while an emission filter blocks the excitation light while allowing the       longer-wavelength fluorescence to pass through the detector.
@@ -47,7 +51,7 @@ Aside from the fluorophore itself, there are five main components required for a
 
 ## Proposed Design
 
-In determining a fluorophore to use, we need to consider a readily available solvent, the molecular extinction coefficient (efficiency with which fluorochrome absorbs excitation light), and the quantum yield (ratio of emission wavelength to absorption wavelength). Fluoroscein is a readily available, cheap fluorochrome that is solvent in water. Its excitation wavelength is 437 nm, while its emission wavelength is 515 nm (quantum yield is 0.92).
+In determining a fluorophore to use, we need to consider a readily available solvent with a relatively high molecular extinction coefficient and  quantum yield. Fluoroscein is a readily available, cheap fluorochrome that is solvent in water. Its excitation wavelength is 437 nm, while its emission wavelength is 515 nm. Its extinction coefficient is approximately 70,000 to 75,000 M⁻¹cm⁻¹, and the quantum yield is 0.92. Therefore, I selected fluorescein because of its high brightness and ease of access.
 
 ## System Architecture
 
