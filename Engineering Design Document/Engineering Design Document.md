@@ -59,12 +59,10 @@ The SST-10-SB-B130-M470 by Luminus Devices was chosen because it is a blue 470 n
 
 <a href="https://www.digikey.com/en/products/detail/luminus-devices-inc/SST-10-SB-B130-M470/12170041">SST-10-SB-B130-M470</a>
 
-
-
 ### Optical Filters
 For the emission filter, I chose a 530 40 nm Narrow Bandpass Filter because its center wavelength (530 nm) is close enough to fluorescein’s emission peak (≈515 nm) to transmit a strong emission signal, while the 40 nm FWHM allows a reasonably narrow band (510-550 nm) that still blocks much of the excitation light and stray ambient light. Although its blocking at 450 nm won’t be as strong as high-end interference filters because of the lower optical density, this filter offers sufficient emission bandwidth and transmission efficiency for proof-of-concept work. Its small size and simple design make it easier to integrate into my PCB sensor enclosure while keeping overall costs low. Similarly, I chose a 470 20 nm Narrow Bandpass Filter because its center wavelength (~470 nm) aligns with fluorescein's peak excitation wavelength to maximize the number of photons absorbed by the fluorophore. The 20 nm FWMH ensures a very specific range of wavelengths is used for excitation. This filter's passband (465-485 nm) is also well-separated from the emission filter's passband. 
 
-S1223 PD
+### Photodetector
 
 OPA857 + Custom AFE design
 
