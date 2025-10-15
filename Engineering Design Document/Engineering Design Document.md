@@ -9,12 +9,15 @@ At a higher-level, exploring AMS design is essential for bioprocessing systems b
 
 ## Background
 
-what is fluorescence sensing, how does it work, why is it important ex. certain biomarkers, the general structure of a fluorescence sensing device like what you need, light excitation source, optical filter, photodetector, analog front-end, MCU, but you can add subsquent circuits.
+what is fluorescence sensing, how does it work, why is it important ex. certain biomarkers
 
 Aside from the fluorochrome itself, there are five main components required for a fluorescence spectrometer. 
 
   1) Light excitation source: This is the light source that emits light at a specific wavelength to excite the fluorochrome.
-  2) Optical filters: Spectrometers require two filters. First, an excitation filter selects the specific wavelength from        the light source that will
+  2) Optical filters: Spectrometers require two filters. An excitation filter selects the specific wavelength from               the light source that will excite the sample, while an emission filter blocks the excitation light while allowing the       longer-wavelength fluorescence to pass through the detector.
+  3) Photodetector: This component measures the lighted emitted by the fluorescent sample and converts the photons into an       electrical signal, generating a "photocurrent."
+  4) Analog front-end (AFE): The AFE processes the raw electrical signal from the photodetector for digitization. The goal       is to convert the current to a stable voltage signal that an analog-to-digital converter (ADC) can read for                 quantization.
+  5) Microcontroller Unit (MCU): The MCU is the digital brain of the system. It is responsible for processing the digitzied      signal and outputting the final result as data that we can interpret.
 
 ## Terminology
 
