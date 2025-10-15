@@ -34,9 +34,15 @@ Aside from the fluorophore itself, there are five main components required for a
   5) Microcontroller Unit (MCU): The MCU is the digital brain of the system. It is responsible for processing the digitzied      signal and outputting the final result as data that we can interpret.
 
 ## Terminology
-Spectrometer
+
+### Biology
+Fluorescence
 Stokes shift
 Analyte
+
+### Electrical
+Spectrometer
+
 
 ## Proposed Design
 
