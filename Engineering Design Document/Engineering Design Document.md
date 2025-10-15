@@ -14,7 +14,7 @@ what is fluorescence sensing, how does it work, why is it important ex. certain 
 Aside from the fluorochrome itself, there are five main components required for a fluorescence spectrometer. 
 
   1) Light excitation source: This is the light source that emits light at a specific wavelength to excite the fluorochrome.
-  2) Optical filters: An 
+  2) Optical filters: Spectrometers require two filters. First, an excitation filter selects the specific wavelength from        the light source that will
 
 ## Terminology
 
