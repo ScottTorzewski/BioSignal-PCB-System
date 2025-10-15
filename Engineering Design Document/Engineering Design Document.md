@@ -9,6 +9,13 @@ At a higher-level, exploring AMS design is essential for bioprocessing systems b
 
 ## Background
 
+what is fluorescence sensing, how does it work, why is it important ex. certain biomarkers, the general structure of a fluorescence sensing device like what you need, light excitation source, optical filter, photodetector, analog front-end, MCU, but you can add subsquent circuits.
+
+Aside from the fluorochrome itself, there are five main components required for a fluorescence spectrometer. 
+
+  1) Light excitation source: This is the light source that emits light at a specific wavelength to excite the fluorochrome.
+  2) Optical filters: An 
+
 ## Terminology
 
 ## Proposed Design
