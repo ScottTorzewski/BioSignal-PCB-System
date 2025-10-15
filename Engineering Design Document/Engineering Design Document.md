@@ -51,11 +51,13 @@ Aside from the fluorophore itself, there are five main components required for a
 
 ## Proposed Design
 
-In determining a fluorophore to use, we need to consider a readily available solvent with a relatively high molecular extinction coefficient and  quantum yield. Fluoroscein is a readily available, cheap fluorochrome that is solvent in water. Its excitation wavelength is 437 nm, while its emission wavelength is 515 nm. Its extinction coefficient is approximately 70,000 to 75,000 M⁻¹cm⁻¹, and the quantum yield is 0.92. Therefore, I selected fluorescein because of its high brightness and ease of access.
+### Fluorophore
+In determining a fluorophore to use, we need to consider a readily available solvent with a relatively high molecular extinction coefficient and  quantum yield. Fluoroscein is a readily available, cheap fluorochrome that is solvent in water. Its excitation wavelength is 437 nm, while its emission wavelength is 515 nm. Its extinction coefficient is approximately 70,000 to 75,000 M⁻¹cm⁻¹, and the quantum yield is 0.92. Therefore, I selected fluorescein because of its high brightness and ease of access. The fluorescein will be mixed with water in a 10mm cuvette and placed in a 3D-printed enclosure which will hold the detector. 
 
-Light Source
+### Light Excitation Source
 
-Filters
+### Optical Filters
+For the emission filter, I chose the NBP530 40 nm Narrow Bandpass Filter because its center wavelength (530 nm) is close enough to fluorescein’s emission peak (≈515 nm) to transmit a strong emission signal, while the 40 nm FWHM allows a reasonably narrow band (510-550 nm) that still blocks much of the excitation light and stray ambient light. Although its blocking at 450 nm won’t be as strong as high-end interference filters because of the lower optical density, this filter offers sufficient emission bandwidth and transmission efficiency for proof-of-concept work. Its small size and simple design make it easier to integrate into my PCB sensor enclosure while keeping overall costs low. Similarly, I chose the NBP495 20 nm Narrow Bandpass Filter because its center wavelength (~495 nm) aligns with fluorescein's peak excitation wavelength to maximize the number of photons absorbed by the fluorophore. The 20 nm FWMH ensures a very specific range of wavelengths is used for excitation. This filter's passband (485-505 nm) is also well-separated from the emission filter's passband. 
 
 S1223 PD
 
