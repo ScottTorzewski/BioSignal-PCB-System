@@ -23,7 +23,7 @@ There are several reasons for why it is important to explore fluorescence sensin
 
   1) Early disease diagnosis: Fluorescence sensing can detect minute changes in biomarker levels longer before symptoms          appear. For Alzheimer's disease, detecting alterations in amyloid-β and tau years in advance allows for earlier             intervention.
   2) Less invasive testing: For diseases like Alzheimer's spinal fluid analysis is often used despite its highly-invasive        nature. Fluorescence-based assays allow for the sensitive detection of biomarkers using more accessible blood samples.
-  3) Real-time monitoring and imaging: Fluorescen probes can be used for real-time, high-resolution imaging in living cells      and tissues. This is crucial for exploring disease progression in cellular processes and the efficacy of drug               therapies.
+  3) Real-time monitoring and imaging: Fluorescent probes can be used for real-time, high-resolution imaging in living           cells and tissues. This is crucial for exploring disease progression in cellular processes and the efficacy of drug         therapies.
 
 Aside from the fluorophore itself, there are five main components required for a spectrometer. 
 
@@ -36,8 +36,8 @@ Aside from the fluorophore itself, there are five main components required for a
 ## Terminology
 
 ### Biology
-Fluorescence
-Stokes shift
+Fluorescence: The process where a substance absorbs light of one color and then immediately gives off light of a different color which has a longer wavelength. For example, a molecule might absorb blue light but emit green light.
+Stokes shift: 
 Analyte
 
 ### Electrical
