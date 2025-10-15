@@ -1,4 +1,5 @@
-### Fluorescence-Based Spectrometer for Biophotonic Signal Acquisition EDD
+# Engineering Design Document
+## Fluorescence-Based Spectrometer for Biophotonic Signal Acquisition
 
 Author: Scott Torzewski
 
