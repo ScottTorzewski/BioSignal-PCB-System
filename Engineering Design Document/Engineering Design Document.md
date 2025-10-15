@@ -11,6 +11,7 @@ At a higher-level, exploring AMS design is essential for bioprocessing systems b
 
 ### Biology
 Fluorescence: The process where a substance absorbs light of one color and then immediately gives off light of a different color which has a longer wavelength. For example, a molecule might absorb blue light but emit green light.
+
 Stokes shift: The difference in wavelength between the light a substance absorbs and the fluorescent light it emits. A larger Stokes shift makes it easier for a detector to distinguish the emitted fluorescent light from the exciting light.
 Analyte: A substance or chemical component in a sample that is the subject of a chemical analysis. It isthe specific thing you are looking for and measuring in an experiment.
 Molecular Extinction Coefficient: 
