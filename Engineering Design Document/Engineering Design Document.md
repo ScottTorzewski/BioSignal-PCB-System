@@ -2,6 +2,8 @@
 ## Fluorescence-Based Spectrometer for Biophotonic Signal Acquisition
 Author: Scott Torzewski
 
+<br>
+
 Rationale
 
 Background
