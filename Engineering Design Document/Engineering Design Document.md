@@ -4,7 +4,7 @@ Author: Scott Torzewski
 
 <br>
 
-Rationale
+## Rationale
 
 Background
 
