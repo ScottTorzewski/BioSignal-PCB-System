@@ -7,6 +7,17 @@ Studying analog/mixed-signal (AMS) design is crucial for biotechnology applicati
 
 At a higher-level, exploring AMS design is essential for bioprocessing systems because it enables the development of high-performance sensors needed for real-time monitoring and control. As an engineer in the biopharmaceuitcal manufacturing industry, I am constanty exposed to Process Analytical Technology (PAT) such as the RamanRxN4, a high-performance Raman spectroscopy system that includes a specialized bIO-PRO probe for sterile integration with bioreactors.  As biprocessing shifts towards this data-driven paradigm, AMS technology provides the electronics that can accurately acquire sensor signals within challenging bioreactor enviornments. 
 
+## Terminology
+
+### Biology
+Fluorescence: The process where a substance absorbs light of one color and then immediately gives off light of a different color which has a longer wavelength. For example, a molecule might absorb blue light but emit green light.
+Stokes shift: The difference in wavelength between the light a substance absorbs and the fluorescent light it emits. A larger Stokes shift makes it easier for a detector to distinguish the emitted fluorescent light from the exciting light.
+Analyte: A substance or chemical component in a sample that is the subject of a chemical analysis. It isthe specific thing you are looking for and measuring in an experiment.
+Molecular Extinction Coefficient: 
+
+### Electrical
+Spectrometer
+
 ## Background
 
 Fluorophores are photoreactive chemical compounds that absorb light energy of a certain wavelength and emit that light at a longer wavelength. This occurs due to the movements of electrons from a ground state to an excited state, and back to a ground state. The action of falling back to a ground state emits photons that can be measured. The emission light spectrum has a slightly longer wavelength than the absorption specturm due to the phenomenon of Stokes shift. In sensing applications the fluorophore's emission changes in a predictable way when it interacts with a target substance.
@@ -33,18 +44,9 @@ Aside from the fluorophore itself, there are five main components required for a
   4) Analog front-end (AFE): The AFE processes the raw electrical signal from the photodetector for digitization. The goal       is to convert the current to a stable voltage signal that an analog-to-digital converter (ADC) can read for                 quantization.
   5) Microcontroller Unit (MCU): The MCU is the digital brain of the system. It is responsible for processing the digitzied      signal and outputting the final result as data that we can interpret.
 
-## Terminology
-
-### Biology
-Fluorescence: The process where a substance absorbs light of one color and then immediately gives off light of a different color which has a longer wavelength. For example, a molecule might absorb blue light but emit green light.
-Stokes shift: 
-Analyte
-
-### Electrical
-Spectrometer
-
-
 ## Proposed Design
+
+In determining a fluorophore to use, we need to consider a readily available solvent, the molecular extinction coefficient (efficiency with which fluorochrome absorbs excitation light), and the quantum yield (ratio of emission wavelength to absorption wavelength). Fluoroscein is a readily available, cheap fluorochrome that is solvent in water. Its excitation wavelength is 437 nm, while its emission wavelength is 515 nm (quantum yield is 0.92).
 
 ## System Architecture
 
