@@ -2,8 +2,6 @@
 ## Fluorescence-Based Spectrometer for Biophotonic Signal Acquisition
 Author: Scott Torzewski
 
-<br>
-
 ## Rationale
 Studying analog/mixed-signal (AMS) design is crucial for biotechnology applications because it enbales the precise and efficient processing of delicate biological signals. These signals are often extremely weak and operate within noisy physiological environments, which presents a challenge for detection and analysis. Optical analog front-end circuits are the first point of contact for the raw, continous data from our physical world and play a critical role in determining the system sensitivity and accuracy before the signal is converted to the digital domain. 
 
