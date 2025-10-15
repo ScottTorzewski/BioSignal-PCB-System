@@ -17,7 +17,9 @@ The funamental process of fluorescence sensing involves three steps.
   2) Interaction: When a speciic target analyte is present, it binds to or otherwise interacts with the fluorophore, which       alters the fluorophore's emission properties.
   3) Emission and detection: The excited electrons return to their ground state and emitt photons that are detected and          measured by a sensor.
 
-Fluorescence sensing is a useful tool for biomarker detection due to its high sensitivity and selectivty, which enables the measurement of very low analyte concentrations. For example, in the context of Alzheimer's detection, enhanced fluorescence platforms are used to detect trace levels of biomarkers like amyloid-β and tau proteins in blood samples. Key reasons for its importance are listed below.
+Fluorescence sensing is a useful tool for biomarker detection due to its high sensitivity and selectivty, which enables the measurement of very low analyte concentrations. For example, in the context of Alzheimer's detection, enhanced fluorescence platforms are used to detect trace levels of biomarkers like amyloid-β and tau proteins in blood samples. 
+
+There are several reasons for why it is important to explore fluorescence sensing technologies.
 
   1) Early disease diagnosis: Fluorescence sensing can detect minute changes in biomarker levels longer before symptoms          appear. For Alzheimer's disease, detecting alterations in amyloid-β and tau years in advance allows for earlier             intervention.
   2) Less invasive testing: For diseases like Alzheimer's spinal fluid analysis is often used despite its highly-invasive        nature. Fluorescence-based assays allow for the sensitive detection of biomarkers using more accessible blood samples.
