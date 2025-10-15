@@ -9,24 +9,24 @@ At a higher-level, exploring AMS design is essential for bioprocessing systems b
 
 ## Background
 
-Terminology
+## Terminology
 
-Proposed Design
+## Proposed Design
 
-System Architecture
+## System Architecture
 
-Detailed Design
+## Detailed Design
 
-Test Plan
+## Test Plan
 
-BOM
+## BOM
 
-Business Logic
+## Business Logic
 
-Impact
+## Impact
 
-Risks
+## Risks
 
-Alternatives 
+## Alternatives 
 
 
