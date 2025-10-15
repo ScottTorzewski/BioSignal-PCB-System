@@ -65,7 +65,7 @@ The SST-10-SB-B130-M470 by Luminus Devices was chosen because it is a blue 470 n
 For the emission filter, I chose a 530 40 nm Narrow Bandpass Filter because its center wavelength (530 nm) is close enough to fluorescein’s emission peak (≈515 nm) to transmit a strong emission signal, while the 40 nm FWHM allows a reasonably narrow band (510-550 nm) that still blocks much of the excitation light and stray ambient light. Although its blocking at 450 nm won’t be as strong as high-end interference filters because of the lower optical density, this filter offers sufficient emission bandwidth and transmission efficiency for proof-of-concept work. Its small size and simple design make it easier to integrate into my PCB sensor enclosure while keeping overall costs low. Similarly, I chose a 470 20 nm Narrow Bandpass Filter because its center wavelength (~470 nm) aligns with fluorescein's peak excitation wavelength to maximize the number of photons absorbed by the fluorophore. The 20 nm FWMH ensures a very specific range of wavelengths is used for excitation. This filter's passband (465-485 nm) is also well-separated from the emission filter's passband. 
 
 ### Photodetector
-For our photodetector, I selected a Hamamatsu S1223 PIN photodiode, which is specifically designed for optical measuring equipment. Biological fluorescent signals are very weak, and its dark current of 0.1 nA ensures there is minimum background noise to allow for more precise measurement of low intensity light. The PCB/TO-style package also makes for easy alignment.
+For our photodetector, I selected a Hamamatsu S1223 PIN photodiode, which is specifically designed for optical measuring equipment. Biological fluorescent signals are very weak, and its dark current of 0.1 nA ensures there is minimum background noise to allow for more precise measurement of low intensity light. In general, we can see in the spectral response how this model has excellent linearity. The S1223 has a typical photosensitivty of 0.32 A/W around our target wavelength of 515 nm, so the responsivity is high enough where it can convert the fluorescent light into a measurable current while the low terminal capacitance of 10 pF allows for a fast response time for the circuit. The PCB/TO-style package also makes for easy alignment.
 
 OPA857 + Custom AFE design
 
@@ -78,6 +78,8 @@ LED Driver
 block diagram
 
 ## Detailed Design
+
+explain concept of lower terminal capacitance in-depth here
 
 ## Test Plan
 
