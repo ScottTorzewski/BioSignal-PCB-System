@@ -53,7 +53,21 @@ Aside from the fluorophore itself, there are five main components required for a
 
 In determining a fluorophore to use, we need to consider a readily available solvent with a relatively high molecular extinction coefficient and  quantum yield. Fluoroscein is a readily available, cheap fluorochrome that is solvent in water. Its excitation wavelength is 437 nm, while its emission wavelength is 515 nm. Its extinction coefficient is approximately 70,000 to 75,000 M⁻¹cm⁻¹, and the quantum yield is 0.92. Therefore, I selected fluorescein because of its high brightness and ease of access.
 
+Light Source
+
+Filters
+
+S1223 PD
+
+OPA857 + Custom AFE design
+
+Pico with ADC + PWM
+
+LED Driver
+
 ## System Architecture
+
+block diagram
 
 ## Detailed Design
 
