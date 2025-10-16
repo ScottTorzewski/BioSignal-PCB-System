@@ -63,9 +63,13 @@ The funamental process of fluorescence sensing involves three steps.
   2) Interaction: When a speciic target analyte is present, it binds to or otherwise interacts with the fluorophore, which       alters the fluorophore's emission properties.
   3) Emission and detection: The excited electrons return to their ground state and emitt photons that are detected and          measured by a sensor.
 
+<br>
+
 <p align="center">
- <img src="./Images/bandpass.png" alt="bandpass" width="500"/>
+ <img src="./Images/bandpass.png" alt="bandpass" width="350"/>
 </p>
+
+<br>
 
 Fluorescence sensing is a useful tool for biomarker detection due to its high sensitivity and selectivty, which enables the measurement of very low analyte concentrations. For example, in the context of Alzheimer's detection, enhanced fluorescence platforms are used to detect trace levels of biomarkers like amyloid-β and tau proteins in blood samples. 
 
@@ -114,7 +118,7 @@ The theoretical analog front-end design is made of three stages. FIrst, a transi
 The pre-fabricated AFE I selected was the OPA857 TIA. It is specifically targeted for photodiode applications with a selectable feedback resistance, low input-referred current noise (15 nA rms), and ample bandwidth (105 MHz and 1.5 pF external parasitic capacitance for 20k transimpedance).
 
 <p align="center">
- <img src="./Images/opa857.png" alt="opa857" width="500"/>
+ <img src="./Images/opa857.png" alt="opa857" width="350"/>
 </p>
 
 OPA857 + Custom AFE design
