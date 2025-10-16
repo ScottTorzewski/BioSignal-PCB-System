@@ -43,7 +43,7 @@ Linearity: How consistently a sensor's output changes in proportion to the input
 
 MOSFET: A metal oxide semiconductor field effect transistor. It controls the flow of current between two terminals (drain and source) through an external voltage applied to a third terminal (gate). They can act as amplifiers or switches and are the foundation of all modern electronic equipment. 
 
-Noise: Unwanted, outside interference in the sensor's output signal. Noise can be a signal from the sensor's own electronics, external electrical interference, or heat. It obscures the real signal. In this field, we desire a high SNR, or signal-to-noise ratio. We desire a strong signal with little noise so our observation only includes what was intended to be measured.
+Noise: Unwanted, outside interference in the sensor's output signal. Noise can be a signal from the sensor's own electronics, external electrical interference, or heat. It obscures the real signal. In electronics engineering, we aim for a high signal-to-noise ratio (SNR). A strong signal with little noise means our observation only includes what was intended to be measured.
 
 Open-Loop Gain: The intrinsic gain of an amplifying device without any external feedback. It is exceptionally high and uncontrolled, which makes it impractical for most precision applications.
 
