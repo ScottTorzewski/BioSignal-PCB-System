@@ -61,7 +61,7 @@ The funamental process of fluorescence sensing involves three steps.
 
   1) Excitation: A light source shines on a sample, which excites the electrons in the fluorophore to a higher energy state.
   2) Interaction: When a speciic target analyte is present, it binds to or otherwise interacts with the fluorophore, which       alters the fluorophore's emission properties.
-  3) Emission and detection: The excited electrons return to their ground state and emitt photons that are detected and          measured by a sensor.
+  3) Emission and detection: The excited electrons return to their ground state and emitt photons that are detected and          measured by a sensor. The fluorescence signal is inherently weaker than the excitation light using to produce it.          Therefore, by positioning the detector at a 90-degree angle, you ensure the detector does not collect light from the       more powerful source. The 90-degree geometry also reduces the amount of scattered light excitation than can reach          the detector to allow for a clearer measurement of the emitted fluoresence. 
 
 <br>
 
