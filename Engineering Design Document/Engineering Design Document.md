@@ -59,8 +59,6 @@ In determining a fluorophore to use, we need to consider a readily available sol
 ### Light Excitation Source
 The SST-10-SB-B130-M470 by Luminus Devices was chosen because it is a blue 470 nm LED with a peak emission (470 nm) that closely matches fluorescein’s excitation range (around 437 nm). Because I am using cheaper components, I am overshooting the typical excitation wavelength in case the light intensity isn't high as specified. This ensures efficient absorption and a strong fluorescence output. Addiionally, its compact SMD form factor makes it easy to integrate onto a PCB for a portable biosensor platform.
 
-<a href="https://download.luminus.com/datasheets/Luminus_SST-10-SB_Datasheet.pdf</a>
-
 <p align="center">
  <img src="./Images/led.png" alt="led" width="600"/>
 </p>
@@ -70,8 +68,6 @@ For the emission filter, I chose a 530 40 nm Narrow Bandpass Filter because its 
 
 ### Photodetector
 For our photodetector, I selected a Hamamatsu S1223 PIN photodiode, which is specifically designed for optical measuring equipment. Biological fluorescent signals are very weak, and its dark current of 0.1 nA ensures there is minimum background noise to allow for more precise measurement of low intensity light. In general, we can see in the spectral response how this model has excellent linearity. The S1223 has a typical photosensitivty of 0.32 A/W around our target wavelength of 515 nm, so the responsivity is high enough where it can convert the fluorescent light into a measurable current while the low terminal capacitance of 10 pF allows for a fast response time for the circuit. The PCB/TO-style package also makes for easy alignment.
-
-<a href="https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s1223_series_kpin1050e.pdf</a>
 
 <p align="center">
   <img src="./Images/PD1.png" alt="PD1" width="400"/>
