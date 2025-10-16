@@ -121,14 +121,13 @@ The pre-fabricated AFE I selected was the OPA857 TIA. It is specifically targete
  <img src="./Images/opa857.png" alt="opa857" width="350"/>
 </p>
 
-OPA857 + Custom AFE design
-
+### MCU: 
 Pico with ADC + PWM
 
-LED Driver
+### LED Driver
+method for physical observation
 
 ## System Architecture
-
 block diagram
 
 ## Detailed Design
