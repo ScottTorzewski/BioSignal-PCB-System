@@ -58,6 +58,7 @@ In determining a fluorophore to use, we need to consider a readily available sol
 
 ### Light Excitation Source
 The SST-10-SB-B130-M470 by Luminus Devices was chosen because it is a blue 470 nm LED with a peak emission (470 nm) that closely matches fluorescein’s excitation range (around 437 nm). Because I am using cheaper components, I am overshooting the typical excitation wavelength in case the light intensity isn't high as specified. This ensures efficient absorption and a strong fluorescence output. Addiionally, its compact SMD form factor makes it easy to integrate onto a PCB for a portable biosensor platform.
+
 <a href="https://https://www.digikey.com/en/products/detail/luminus-devices-inc/SST-10-SB-B90-M470/12170042?msockid=166ddc63b7a8624a137ad2beb6ca6372">SST-10-SB Sky Blue LED</a>
 
 <p align="center">
