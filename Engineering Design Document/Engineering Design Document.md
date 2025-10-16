@@ -62,7 +62,7 @@ The SST-10-SB-B130-M470 by Luminus Devices was chosen because it is a blue 470 n
 <a href="https://https://www.digikey.com/en/products/detail/luminus-devices-inc/SST-10-SB-B90-M470/12170042?msockid=166ddc63b7a8624a137ad2beb6ca6372">SST-10-SB Sky Blue LED</a>
 
 <p align="center">
- <img src="./Images/led.png" alt="led" width="500"/>
+ <img src="./Images/led.png" alt="led" width="600"/>
 </p>
 
 ### Optical Filters
@@ -70,6 +70,8 @@ For the emission filter, I chose a 530 40 nm Narrow Bandpass Filter because its 
 
 ### Photodetector
 For our photodetector, I selected a Hamamatsu S1223 PIN photodiode, which is specifically designed for optical measuring equipment. Biological fluorescent signals are very weak, and its dark current of 0.1 nA ensures there is minimum background noise to allow for more precise measurement of low intensity light. In general, we can see in the spectral response how this model has excellent linearity. The S1223 has a typical photosensitivty of 0.32 A/W around our target wavelength of 515 nm, so the responsivity is high enough where it can convert the fluorescent light into a measurable current while the low terminal capacitance of 10 pF allows for a fast response time for the circuit. The PCB/TO-style package also makes for easy alignment.
+
+<a href="https://www.hamamatsu.com/us/en/product/optical-sensors/photodiodes/si-photodiodes/S1223.html">Si PIN photodiode S1223 Series</a>
 
 <p align="center">
   <img src="./Images/PD1.png" alt="PD1" width="400"/>
