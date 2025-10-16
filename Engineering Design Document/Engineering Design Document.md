@@ -41,6 +41,8 @@ Junction Capacitance: The parasitic junction capacitance is the unwanted capacit
 
 Linearity: How consistently a sensor's output changes in proportion to the input. A perfectly linear sensor would produce a perfectly straight-line graph when you plot its output versus the physical quantity it's measuring. With good linearity, you can use a few points as opposed to a complex curve-fitting formula to convert its output into a real-world value and more easily verify its accuracy.
 
+MOSFET: A metal oxide semiconductor field effect transistor. It controls the flow of current between two terminals (drain and source) through an external voltage applied to a third terminal (gate). They can act as amplifiers or switches and are the foundation of all modern electronic equipment. 
+
 Noise: Unwanted, outside interference in the sensor's output signal. Noise can be a signal from the sensor's own electronics, external electrical interference, or heat. It obscures the real signal. In this field, we desire a high SNR, or signal-to-noise ratio. We desire a strong signal with little noise so our observation only includes what was intended to be measured.
 
 Open-Loop Gain: The intrinsic gain of an amplifying device without any external feedback. It is exceptionally high and uncontrolled, which makes it impractical for most precision applications.
@@ -125,7 +127,9 @@ For our photodetector, I selected a Hamamatsu S1223 PIN photodiode, which is spe
 ### Analog Front-End
 The theoretical analog front-end design is composed of three stages. FIrst, a transimpedance amplfier (TIA) converts the photocurrent to a voltage through negative feedback. The op-amp must have sufficient input common-mode range and output voltage swing. The feedback resistor is calculated to maximize gain while minimizing thermal resistor noise. Then, a buffer stage acts as a barrier between the sensitive source and the rest of the circuit. It provides low-noise amplification to adjust the signal to be compatible with the ADC. Finally, a 2nd order Sallen-Key low pass filter specifies the bandwidth for the input signal into the ADC. The cutoff frequency can be set precisely by selecting the appropriate resistor and capacitor values, while the low output impedance can drive the input of the ADC without loading down the signal.
 
-(Add high-level spice circuit here)
+<p align="center">
+ <img src="./Images/afe2.png" alt="afe2" width="350"/>
+</p>
 
 The pre-fabricated AFE I selected was the OPA857 TIA. It is specifically targeted for photodiode applications with a selectable feedback resistance, low input-referred current noise (15 nA rms), and ample bandwidth (105 MHz and 1.5 pF external parasitic capacitance for 20k transimpedance).
 
@@ -141,10 +145,16 @@ To determine an MCU to use, I considered devices that had ADC capabilities, cost
 </p>
 
 ### LED Driver
-As a method for physical observation of the signal, I included an LED driver circuit. It uses an op-amp controlled MOSFET current regulator to translate the measured signal into analog LED intensity. The PWM signal from the MCU is sent to a voltage divider and RC filter to smooth the analog reference. The non-inverting input of the op-amp recieves the reference voltage and drives the MOSFET gate. The MOSFET drain connects to the LED cathode while the anode is supplied +5V from the power rail. The MOSFET source is connected to a node with a shunt resistor going to ground. The shunt resistor carries LED current which can cause small voltage drops across traces. The op-amp needs to sense the exact voltage across the shunt instead of the drop including trace resistance. Therefore, the node also features a high-impedance sense trace connecting directly to the op-amps inverting input to ensure the true shunt voltage is registered without IR drop error from trace resistance.
+As a method for physical observation of the signal, I included an LED driver circuit. It is both an aesthetic design choice and a helpful tool for debugging. It uses an op-amp controlled MOSFET current regulator to translate the measured signal into analog LED intensity. The pulse-width modulation (PWM) signal from the MCU is sent to a voltage divider and RC filter to smooth the analog reference. The non-inverting input of the op-amp recieves the reference voltage and drives the MOSFET gate. The MOSFET drain connects to the LED cathode while the anode is supplied +5V from the power rail. The MOSFET source is connected to a node with a shunt resistor going to ground. The shunt resistor carries LED current which can cause small voltage drops across traces. The op-amp needs to sense the exact voltage across the shunt instead of the drop including trace resistance. Therefore, the node also features a high-impedance sense trace connecting directly to the op-amps inverting input to ensure the true shunt voltage is registered without IR drop error from trace resistance.
 
 <p align="center">
  <img src="./Images/driver2.png" alt="driver2" width="350"/>
+</p>
+
+A full snapshot of the preliminary circuit is shown below. It encompasses the analog front-end used to process the fluorescent signal for the MCU and the LED driver for signal observation via changes in LED intensity. 
+
+<p align="center">
+ <img src="./Images/fullcircuit2.png" alt="fullcircuit2" width="350"/>
 </p>
 
 ## System Architecture
