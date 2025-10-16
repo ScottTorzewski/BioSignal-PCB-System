@@ -109,6 +109,10 @@ The theoretical analog front-end design is made of three stages. FIrst, a transi
 
 The pre-fabricated AFE I selected was the OPA857 TIA. It is specifically targeted for photodiode applications with a selectable feedback resistance, low input-referred current noise (15 nA rms), and ample bandwidth (105 MHz and 1.5 pF external parasitic capacitance for 20k transimpedance).
 
+<p align="center">
+ <img src="./Images/opa857.png" alt="opa857" width="500"/>
+</p>
+
 OPA857 + Custom AFE design
 
 Pico with ADC + PWM
