@@ -98,7 +98,7 @@ The SST-10-SB-B130-M470 by Luminus Devices was chosen because it is a blue 470 n
 <br>
 
 <p align="center">
- <img src="./Images/led.png" alt="led" width="600"/>
+ <img src="./Images/led.png" alt="led" width="500"/>
 </p>
 
 ### Optical Filters
