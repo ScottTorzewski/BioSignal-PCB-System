@@ -134,6 +134,10 @@ The pre-fabricated AFE I selected was the OPA857 TIA. It is specifically targete
 ### MCU: 
 To determine an MCU to use, I considered devices that had ADC capabilities, cost, and familiarity. The Raspberry Pi Pico W meets all of these requirements. The Pico has several ADC pins with a voltage operation range of 0 to 3.3V. The ADC has a 12-bit resolution, meaning you get 4,096 distinct digital values to represent the continuous analog input. I specifically opted for the Pico W over the Pico because of the Wi-Fi capabilities, which be helpful if I ever expand the scope of the project. 
 
+<p align="center">
+ <img src="./Images/pico.png" alt="pico" width="350"/>
+</p>
+
 ### LED Driver
 method for physical observation
 
