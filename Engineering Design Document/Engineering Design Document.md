@@ -172,6 +172,8 @@ selecting components for sallen-key filter to match fluorescent bandwidth
 
 explain detailed design of adjusting signal to be compaible with ADC stage (bandwidth covered, confirm voltage level)
 
+emphasis on the science and design choices for AMS design
+
 ## Test Plan
 
 ## BOM
