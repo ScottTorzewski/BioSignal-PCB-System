@@ -104,7 +104,7 @@ For our photodetector, I selected a Hamamatsu S1223 PIN photodiode, which is spe
   <img src="./Images/PD2.png" alt="PD2" width="400"/>
 </p>
 
-### Analog Front-ENd
+### Analog Front-End
 The theoretical analog front-end design is made of three stages. FIrst, a transimpedance amplfier (TIA) converts the photocurrent to a voltage through negative feedback. The op-amp must have sufficient input common-mode range and output voltage swing. The feedback resistor is calculated to maximize gain while minimizing thermal resistor noise. Then, a buffer stage acts as a barrier between the sensitive source and the rest of the circuit. It provides low-noise amplification to adjust the signal to be compatible with the ADC. Finally, a 2nd order Sallen-Key low pass filter specifies the bandwidth for the input signal into the ADC. The cutoff frequency can be set precisely by selecting the appropriate resistor and capacitor values, while the low output impedance can drive the input of the ADC without loading down the signal.
 
 The pre-fabricated AFE I selected was the OPA857 TIA. It is specifically targeted for photodiode applications with a selectable feedback resistance, low input-referred current noise (15 nA rms), and ample bandwidth (105 MHz and 1.5 pF external parasitic capacitance for 20k transimpedance).
@@ -127,7 +127,7 @@ block diagram
 
 explain concept of lower terminal capacitance in-depth here
 
-explain importance of incident light angle in-depth here
+explain importance of incident light angle in-depth here, led board shining through bottom of cuvette, detector at 90 degree angle
 
 calculation for maximizing  gain while minimizing thermal noise for feedback resistor
 
