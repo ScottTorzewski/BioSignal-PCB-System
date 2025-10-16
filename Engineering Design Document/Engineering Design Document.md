@@ -143,7 +143,9 @@ To determine an MCU to use, I considered devices that had ADC capabilities, cost
 ### LED Driver
 As a method for physical observation of the signal, I included an LED driver circuit. It uses an op-amp controlled MOSFET current regulator to translate the measured signal into analog LED intensity. The PWM signal from the MCU is sent to a voltage divider and RC filter to smooth the analog reference. The non-inverting input of the op-amp recieves the reference voltage and drives the MOSFET gate. The MOSFET drain connects to the LED cathode while the anode is supplied +5V from the power rail. The MOSFET source is connected to a node with a shunt resistor going to ground. The shunt resistor carries LED current which can cause small voltage drops across traces. The op-amp needs to sense the exact voltage across the shunt instead of the drop including trace resistance. Therefore, the node also features a high-impedance sense trace connecting directly to the op-amps inverting input to ensure the true shunt voltage is registered without IR drop error from trace resistance.
 
-(Add high level spice circuit here)
+<p align="center">
+ <img src="./Images/driver2.png" alt="driver2" width="350"/>
+</p>
 
 ## System Architecture
 block diagram
