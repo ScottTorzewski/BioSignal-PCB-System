@@ -154,7 +154,7 @@ As a method for physical observation of the signal, I included an LED driver cir
 A full snapshot of the preliminary circuit is shown below. It encompasses the analog front-end used to process the fluorescent signal for the MCU and the LED driver for signal observation via changes in LED intensity. 
 
 <p align="center">
- <img src="./Images/fullcircuit2.png" alt="fullcircuit2" width="350"/>
+ <img src="./Images/fullcircuit2.png" alt="fullcircuit2" width="450"/>
 </p>
 
 ## System Architecture
