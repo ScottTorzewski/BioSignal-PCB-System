@@ -63,6 +63,10 @@ The funamental process of fluorescence sensing involves three steps.
   2) Interaction: When a speciic target analyte is present, it binds to or otherwise interacts with the fluorophore, which       alters the fluorophore's emission properties.
   3) Emission and detection: The excited electrons return to their ground state and emitt photons that are detected and          measured by a sensor.
 
+<p align="center">
+ <img src="./Images/bandpass.png" alt="bandpass" width="500"/>
+</p>
+
 Fluorescence sensing is a useful tool for biomarker detection due to its high sensitivity and selectivty, which enables the measurement of very low analyte concentrations. For example, in the context of Alzheimer's detection, enhanced fluorescence platforms are used to detect trace levels of biomarkers like amyloid-β and tau proteins in blood samples. 
 
 There are several reasons for why it is important to explore fluorescence sensing technologies.
