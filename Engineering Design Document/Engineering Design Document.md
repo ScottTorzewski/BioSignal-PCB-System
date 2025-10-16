@@ -41,6 +41,8 @@ Sensitivity: How much a sensor's output changes for a given change in the quanti
 
 Stability: A sensor's ability to provide consistent and accurate readings over a long period. A sensor is stable if its characteristics do not change with time. If a sensor lacks stability, its performance will degrade over time. This is known as drift. Drift can occur due to several reasons, including the aging of the physical properties of a sensor's component, environmental stress, and contamination.
 
+Transimedpance Amplifier: An electronic circuit that converts a small input current into a usable output voltage. It consists of an op-amp and a feedback resistor, where the output voltage is equal to the product of the inverted input current and the feedback resistance.
+
 ## Background
 
 ### Semiconductors
@@ -102,6 +104,10 @@ For our photodetector, I selected a Hamamatsu S1223 PIN photodiode, which is spe
   <img src="./Images/PD2.png" alt="PD2" width="400"/>
 </p>
 
+### Analog Front-ENd
+
+The theoretical analog front-end design is made of three stages. FIrst, the a transimpedance amplfier (TIA) converts the photocurrent to a voltage through negative feedback. Then, a buffer stage acts as a barrier between the sensitive source and the rest of the circuit. It provides low-noise amplification to adjust the signal to be compatible with the ADC. Finally, a 2nd order Sallen-Key low pass filter specifies the bandwidth range for the input signal into the ADC. 
+
 OPA857 + Custom AFE design
 
 Pico with ADC + PWM
@@ -117,6 +123,8 @@ block diagram
 explain concept of lower terminal capacitance in-depth here
 
 explain importance of incident light angle in-depth here
+
+explain detailed design of adjusting signal to be compaible with ADC stage (bandwidth covered, confirm voltage level)
 
 ## Test Plan
 
