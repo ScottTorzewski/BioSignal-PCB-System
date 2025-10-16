@@ -125,6 +125,8 @@ For our photodetector, I selected a Hamamatsu S1223 PIN photodiode, which is spe
 ### Analog Front-End
 The theoretical analog front-end design is composed of three stages. FIrst, a transimpedance amplfier (TIA) converts the photocurrent to a voltage through negative feedback. The op-amp must have sufficient input common-mode range and output voltage swing. The feedback resistor is calculated to maximize gain while minimizing thermal resistor noise. Then, a buffer stage acts as a barrier between the sensitive source and the rest of the circuit. It provides low-noise amplification to adjust the signal to be compatible with the ADC. Finally, a 2nd order Sallen-Key low pass filter specifies the bandwidth for the input signal into the ADC. The cutoff frequency can be set precisely by selecting the appropriate resistor and capacitor values, while the low output impedance can drive the input of the ADC without loading down the signal.
 
+(Add high-level spice circuit here)
+
 The pre-fabricated AFE I selected was the OPA857 TIA. It is specifically targeted for photodiode applications with a selectable feedback resistance, low input-referred current noise (15 nA rms), and ample bandwidth (105 MHz and 1.5 pF external parasitic capacitance for 20k transimpedance).
 
 <p align="center">
@@ -139,7 +141,9 @@ To determine an MCU to use, I considered devices that had ADC capabilities, cost
 </p>
 
 ### LED Driver
-As a method for physical observation of the signal, I included an LED driver circuit. 
+As a method for physical observation of the signal, I included an LED driver circuit. It uses an op-amp controlled MOSFET current regulator to translate the measured signal into analog LED intensity. The PWM signal from the MCU is sent to a voltage divider and RC filter to smooth the analog reference. The non-inverting input of the op-amp recieves the reference voltage and drives the MOSFET gate. The MOSFET drain connects to the LED cathode while the anode is supplied +5V from the power rail. The MOSFET source is connected to a node with a shunt resistor going to ground. The shunt resistor carries LED current which can cause small voltage drops across traces. The op-amp needs to sense the exact voltage across the shunt instead of the drop including trace resistance. Therefore, the node also features a high-impedance sense trace connecting directly to the op-amps inverting input to ensure the true shunt voltage is registered without IR drop error from trace resistance.
+
+(Add high level spice circuit here)
 
 ## System Architecture
 block diagram
