@@ -158,7 +158,12 @@ A full snapshot of the preliminary circuit is shown below. It encompasses the an
 </p>
 
 ## System Architecture
-block diagram
+
+This is a high-level block diagram of the BioSignal system. Note that the purple components are part of the biological emissions stage while the orange components are part of the electronic stage. All orange components require 5V for power.
+
+<p align="center">
+ <img src="./Images/block.png" alt="block" width="450"/>
+</p>
 
 ## Detailed Design
 
