@@ -159,7 +159,7 @@ A full snapshot of the preliminary circuit is shown below. It encompasses the an
 
 ## System Architecture
 
-This high-level block diagram of the BioSignal system is shown below. Note that the purple components are part of the biological emissions stage while the orange components are part of the electronics stage. All orange components require 5V for power.
+This high-level block diagram of the BioSignal PCB System is shown below. Note that the purple components are part of the biological emissions stage while the orange components are part of the electronics stage. All orange components require 5V for power.
 
 <p align="center">
  <img src="./Images/block.png" alt="block" width="450"/>
@@ -171,7 +171,7 @@ This high-level block diagram of the BioSignal system is shown below. Note that 
 I have chosen to use 4 LEDS placed underneath the cuvette in combinaion with a 1mM concentration of fluorescein to yield a higher incident optical power. Assuming an incident optical power of 100nA, we can calculate our expected photocurrent.
 
 <p align="center">
- <img src="./Images/photocurrent.png" alt="photocurrent" width="450"/>
+ <img src="./Images/photocurrent.png" alt="photocurrent" width="300"/>
 </p>
 
 explain concept of lower terminal capacitance in-depth here
