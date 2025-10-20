@@ -178,13 +178,21 @@ I have chosen to use 4 LEDS placed underneath the cuvette in combinaion with a 1
 In its simplest form, a transimpedance amplifier consists of an op-amp with a feedback resistor. The current we want to amplify is applied to the inverting input, which causes the output voltage to change where the output voltage is the product of the inverted input current and the feedback resistor. In this design, the photodiode operates in photoconductive mode. Exposure to light will cause a reverse current through the photodiode, and the diode is connected such that this current causes the op amp output voltage to increase. A feedback capacitor is also necessary to maintain stability. This capacitor compensates for the photodiode terminal capacitance at the inverting input of the op amp.
 
 Cpd to simulate low terminal (parasitic capacitance)
+
 shunt resistor to simulate dark current
+
 100 ohm resistor for TIA output
+
 buffer stage gain calculation, balancing gain with thermal noise from resistor
+
 2nd order sallen key filter to filter frequency to around 100Hz, those calculations, set up as voltage follower
+
 transient simulations, tia output voltage, buffer output voltage, final voltage signal adc reads
+
 ac simulations, phase margin and gain
+
 noise simulations for each output as well
+
 emphasis on the science and design choices for AMS design
 
 ## Test Plan
