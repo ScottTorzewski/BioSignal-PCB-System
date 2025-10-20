@@ -167,6 +167,11 @@ This high-level block diagram of the BioSignal system is shown below. Note that 
 
 ## Detailed Design
 
+### Photocurrent
+I have chosen to use 4 LEDS placed underneath the cuvette in combinaion with a 1mM concentration of fluorescein to yield a higher incident optical power. Assuming an incident optical power of 100nA, we can calculate our expected photocurrent.
+
+
+
 explain concept of lower terminal capacitance in-depth here
 
 explain importance of incident light angle in-depth here, led board shining through bottom of cuvette, detector at 90 degree angle
