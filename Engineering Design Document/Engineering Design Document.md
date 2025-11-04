@@ -178,7 +178,7 @@ I have chosen to use 4 LEDS placed underneath the cuvette in combinaion with a 1
 In its simplest form, a transimpedance amplifier consists of an op-amp with a feedback resistor. The current we want to amplify is applied to the inverting input, which causes the output voltage to change where the output voltage is the product of the inverted input current and the feedback resistor. In this design, the photodiode operates in photoconductive mode. Exposure to light will cause a reverse current through the photodiode, and the diode is connected such that this current causes the op amp output voltage to increase. A feedback capacitor is also necessary to maintain stability. This capacitor compensates for the photodiode terminal capacitance at the inverting input of the op amp.
 
 <p align="center">
- <img src="./Images/spice3.png" alt="spice3" width="700"/>
+ <img src="./Images/spice3.png" alt="spice3" width="1000"/>
 </p>
 
 Cpd to simulate low terminal (parasitic capacitance)
@@ -194,21 +194,21 @@ buffer stage gain calculation, balancing gain with thermal noise from resistor
 transient simulations, tia output voltage, buffer output voltage, final voltage signal adc reads
 
 <p align="center">
- <img src="./Images/tran3.png" alt="tran3" width="700"/>
+ <img src="./Images/tran3.png" alt="tran3" width="1000"/>
 </p>
 
 <p align="center">
- <img src="./Images/tran4.png" alt="tran4" width="700"/>
+ <img src="./Images/tran4.png" alt="tran4" width="1000"/>
 </p>
 
 ac simulations, phase margin and gain
 
 <p align="center">
- <img src="./Images/ac4.png" alt="ac4" width="700"/>
+ <img src="./Images/ac4.png" alt="ac4" width="1000"/>
 </p>
 
 <p align="center">
- <img src="./Images/ac6.png" alt="ac6" width="700"/>
+ <img src="./Images/ac6.png" alt="ac6" width="1000"/>
 </p>
 
 noise simulations for each output as well
