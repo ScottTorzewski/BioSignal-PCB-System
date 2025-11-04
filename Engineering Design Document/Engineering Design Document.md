@@ -211,9 +211,17 @@ ac simulations, phase margin and gain
  <img src="./Images/ac6.png" alt="ac6" width="1000"/>
 </p>
 
-noise simulations for each output as well
+noise simulations for each output
 
-emphasis on the science and design choices for AMS design
+<p align="center">
+ <img src="./Images/noise3.png" alt="noise3" width="1000"/>
+</p>
+
+<p align="center">
+ <img src="./Images/noise4.png" alt="noise4" width="1000"/>
+</p>
+
+emphasis on the science and design choices for AMS design, identifying key issues that needed to be addressed
 
 ## Test Plan
 
