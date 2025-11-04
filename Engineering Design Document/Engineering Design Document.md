@@ -208,11 +208,11 @@ transient simulations, tia output voltage, buffer output voltage, final voltage 
 ac simulations, phase margin and gain
 
 <p align="center">
- <img src="./Images/ac4.png" alt="ac4" width="1000"/>
+ <img src="./Images/ac3.png" alt="ac3" width="1000"/>
 </p>
 
 <p align="center">
- <img src="./Images/ac6.png" alt="ac6" width="1000"/>
+ <img src="./Images/ac5.png" alt="ac5" width="1000"/>
 </p>
 
 noise simulations for each output
