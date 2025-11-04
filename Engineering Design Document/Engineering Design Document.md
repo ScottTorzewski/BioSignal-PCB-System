@@ -181,6 +181,10 @@ In its simplest form, a transimpedance amplifier consists of an op-amp with a fe
  <img src="./Images/spice3.png" alt="spice3" width="1000"/>
 </p>
 
+<p align="center">
+ <img src="./Images/spice4.png" alt="spice4" width="1000"/>
+</p>
+
 Cpd to simulate low terminal (parasitic capacitance)
 
 shunt resistor to simulate dark current
