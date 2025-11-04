@@ -205,7 +205,7 @@ transient simulations, tia output voltage, buffer output voltage, final voltage 
  <img src="./Images/tran4.png" alt="tran4" width="1000"/>
 </p>
 
-ac simulations, phase margin and gain
+Below are the AC simulation results for the 20k and 50k variants. The first line curves down at 86.88dB at 166 degrees. This is the magnitude of the transimpedance gain (Vout / Iin) in dB and its phase. 86.8 dB is approxinately 2 * 10^4 V/A, which matches our TIA gain. Rf = 20k = 20,000 V/A, and we use the formula 10log(20,000) = 86dB. The phase starts near 180 degrees since we are using an inverting TIA, and slowly shifts as frequency increases due to feedback capacitance Cf and photodiode parasitic capacitance. A single-pole low-pass filter is formed, the gain drops, and the phase lags toward -90 degrees for a TIA. The second line curving up from 86dB is hte buffered signal, which is non-inverting. Its magnitude is higher by the buffer gain, where a gain of 2 is approximately 6 dB. The phase shifts accordingly.
 
 <p align="center">
  <img src="./Images/ac3.png" alt="ac3" width="1000"/>
